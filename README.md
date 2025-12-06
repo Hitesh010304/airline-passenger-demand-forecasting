@@ -22,14 +22,6 @@ Confidence intervals
 
 Tableau dashboard with historical + forecast visualization
 
-📁 Project Structure
-airline-passenger-demand-forecasting/
-│── airline_passenger_forecasting.ipynb   → Clean Python notebook
-│── historical_data.csv                   → Historical dataset (1949–1960)
-│── forecast_data.csv                     → Final forecast (1961–1962)
-│── Airline Passenger Analysis.pdf         → Tableau dashboard report
-└── README.md                             → Documentation
-
 🛠 Tech Stack
 
 Python (Pandas, Matplotlib, Statsmodels)
@@ -44,8 +36,7 @@ GitHub
 
 📊 Tableau Dashboard
 
-🔗 Tableau Public Link:
-(Paste link after you publish)
+🔗 Tableau Public Link: https://public.tableau.com/app/profile/hitesh.borse/viz/Book1_17649372684130/AirlinePassengerAnalysisForecast19491962?publish=yes
 
 Dashboard shows:
 
