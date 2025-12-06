@@ -1,79 +1,39 @@
-# airline-passenger-demand-forecasting
-End-to-end time-series forecasting project using Python (SARIMA + Prophet) and Tableau dashboard for historical + forecast visualization.
-✈️ Airline Passenger Demand Forecasting (1949–1962)
+# ✈️ Airline Passenger Demand Forecasting (1949–1962)
 
-This project performs an end-to-end time series forecasting workflow using Python and visual storytelling using Tableau Public.
+This project performs an end-to-end **time series forecasting** workflow on the classic Airline Passengers dataset.  
+It combines **Python (SARIMA + Prophet)** for modeling and a **Tableau dashboard** for visual storytelling.
 
-It includes:
+---
 
-EDA
+## 📌 Project Objectives
 
-Time-series decomposition
+- Analyze historical monthly airline passenger data (1949–1960)
+- Understand **trend** and **seasonality** patterns
+- Build and compare **SARIMA** and **Prophet** forecasting models
+- Forecast passenger demand for **1961–1962**
+- Export forecast results and build a **Tableau dashboard** to present:
+  - Historical trend
+  - Forecasted values
+  - 95% confidence intervals
+  - Business insights
 
-Stationarity testing
+---
 
-ACF/PACF
+## 🗂 Repository Structure
 
-SARIMA model
-
-Prophet model
-
-Confidence intervals
-
-Tableau dashboard with historical + forecast visualization
-
-🛠 Tech Stack
-
-Python (Pandas, Matplotlib, Statsmodels)
-
-Prophet
-
-SARIMA
-
-Tableau Public
-
-GitHub
-
-📊 Tableau Dashboard
-
-🔗 Tableau Public Link: https://public.tableau.com/app/profile/hitesh.borse/viz/Book1_17649372684130/AirlinePassengerAnalysisForecast19491962?publish=yes
-
-Dashboard shows:
-
-Historical passenger trend
-
-Forecasted demand
-
-95% confidence intervals
-
-Insights + business conclusion
-
-📈 Key Insights
-
-Consistently rising passenger volume from 1949–60
-
-Strong yearly seasonality
-
-Forecast predicts continued growth in 1961–62
-
-Lower & upper CI capture expected uncertainty
-
-Tableau visualization helps compare both periods clearly
-
-🧠 Skills Demonstrated
-
-Time-series modeling
-
-Forecasting
-
-Visual analytics
-
-Data storytelling
-
-Dashboard design
-
-Model interpretation
-
-👤 Author
-
-Hitesh Borse
+```bash
+airline-passenger-demand-forecasting/
+│
+├─ data/
+│  ├─ AirPassengers.csv              # Original dataset
+│  ├─ historical_data.csv            # Cleaned historical data (for Tableau)
+│  └─ forecast_data.csv              # Forecast output (for Tableau)
+│
+├─ notebooks/
+│  └─ airline_passenger_forecasting.ipynb    # Clean, structured analysis notebook
+│
+├─ reports/
+│  └─ Airline Passenger Analysis & Forecast (1949–1962).pdf   # Tableau dashboard export
+│
+├─ README.md
+└─ requirements.txt
